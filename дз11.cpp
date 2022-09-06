@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -29,13 +29,12 @@ void dz2() {
     }
 }
 
-
 void dz3() {
     double b = 0;
     double c = 0;
     cout << "Введите b  ";
     cin >> b;
-    cout << "Ввудите c  ";
+    cout << "Введите c  ";
     cin >> c;
     if (b == 0 && c == 0) {
         cout << "Любое число";
