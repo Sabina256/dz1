@@ -12,7 +12,7 @@ void dz2() {
     double y = 0;
     cout << "Введите x  ";
     cin >> x;
-    cout << "Ввудите y  ";
+    cout << "Введите y  ";
     cin >> y;
     cout << "x + y = ";
     cout << x + y << endl;
@@ -35,7 +35,7 @@ void dz3() {
     double c = 0;
     cout << "Введите b  ";
     cin >> b;
-    cout << "Ввудите c  ";
+    cout << "Введите c  ";
     cin >> c;
     if (b == 0 && c == 0) {
         cout << "Любое число";
