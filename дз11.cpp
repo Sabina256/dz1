@@ -33,10 +33,12 @@ void dz2() {
 void dz3() {
     double b = 0;
     double c = 0;
+    cout << "Уравнение вида bx + c = 0"<<endl;
     cout << "Введите b  ";
     cin >> b;
     cout << "Введите c  ";
     cin >> c;
+    cout << "Ответ:"<<endl;
     if (b == 0 && c == 0) {
         cout << "Любое число";
     }
@@ -44,7 +46,7 @@ void dz3() {
         cout << "Нет решений";
     }
     else if (b != 0 && c == 0) {
-        cout << "Любое число";
+        cout << "0";
     }
     else {
         cout << -c / b;
@@ -57,13 +59,14 @@ void dz4() {
     double b = 0;
     double c = 0;
     double D = 0;
+    cout << "Уравнение вида ax^2 + bx + c = 0"<<endl;
     cout << "Введите a  ";
     cin >> a;
     cout << "Введите b  ";
     cin >> b;
     cout << "Введите c  ";
     cin >> c;
-
+    cout << "Ответ:"<<endl;
     if (a == 0) {
         if (b == 0 && c == 0) {
             cout << "Любое число";
@@ -72,7 +75,7 @@ void dz4() {
             cout << "Нет решений";
         }
         else if (b != 0 && c == 0) {
-            cout << "Любое число";
+            cout << "0";
         }
         else {
             cout << -c / b;
@@ -104,16 +107,16 @@ void dz4() {
 }
 
 void dz5() {
-    string x;
-    string y;
-    string z;
+    int x;
+    int y;
+    int z;
     cout << "Какое сейчас время суток? (1-день, 0-вечер)" << endl;
     cin >> x;
     cout << "Открыты ли шторы? (1-да/0-нет)" << endl;
     cin >> y;
     cout << "Включена ли лампа? (1-да/0-нет)" << endl;
     cin >> z;
-    if ((x == "1" && y == "1") || (z == "1")) {
+    if ((x == 1 && y == 1) || (z == 1)) {
         cout << "В комнате светло";
     }
     else {
